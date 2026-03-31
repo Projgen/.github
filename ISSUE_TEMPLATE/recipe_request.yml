@@ -1,0 +1,66 @@
+name: 🧩 Recipe Request
+description: Request a new stack preset / recipe for Projgen
+labels: ["recipe", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A **recipe** is a named combination of frameworks, tools, and integrations that can be selected in one step.  
+        Example: `"next-fullstack"` = Next.js + Tailwind + shadcn + Supabase + ESLint + Prettier.
+
+  - type: input
+    id: recipe_name
+    attributes:
+      label: Recipe Name
+      description: A short, descriptive slug for the recipe.
+      placeholder: "vue-pinia-vitest"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stack
+    attributes:
+      label: Stack Definition
+      description: List all the tools/frameworks/libraries this recipe should include.
+      placeholder: |
+        - Framework: Vue 3 (Vite)
+        - State: Pinia
+        - Testing: Vitest + Vue Test Utils
+        - Styling: Tailwind CSS
+        - Linting: ESLint + Prettier
+        - Git: init with .gitignore
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+      description: Who is this recipe for? What kind of project does it scaffold?
+      placeholder: "For Vue 3 SPAs that need a solid testing and state management setup from day one."
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any special configuration, env variables, or post-scaffold steps needed?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: willing_to_pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I'm willing to help implement this recipe
+          required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched for existing issues and this recipe doesn't exist yet
+          required: true

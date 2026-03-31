@@ -1,0 +1,68 @@
+name: ✨ Feature Request
+description: Suggest a new feature or improvement to the CLI
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a great idea? Tell us about it! Feature requests are reviewed regularly.
+        
+        **Tip:** A well-described problem is more useful than a half-formed solution.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the pain point or missing capability. What are you trying to do that Projgen doesn't support today?
+      placeholder: "When I scaffold a new project I always have to manually configure ESLint for TypeScript strict mode. There's no option for this."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this to work? Describe the ideal behavior from a user's perspective.
+      placeholder: "Add a 'TypeScript Strict ESLint' option in the ESLint prompt that pre-configures strict rules."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any other approaches you've considered or tried?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of Projgen does this relate to?
+      options:
+        - CLI prompts / UX
+        - Framework support (React, Next.js, Vite, etc.)
+        - Tooling (ESLint, Prettier, TypeScript)
+        - Database integration (Supabase, MongoDB, etc.)
+        - Recipe system
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: willing_to_pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I'm willing to open a PR for this feature
+          required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have searched for existing issues and this is not a duplicate
+          required: true
