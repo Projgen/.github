@@ -13,9 +13,7 @@
 
 ## What is Projgen?
 
-```bash
-npx projgen
-```
+`npx projgen`
 
 Projgen is an interactive CLI that scaffolds new projects in seconds. Pick your tech stack, add optional integrations, and start coding — no manual config required.
 
@@ -40,7 +38,3 @@ Projgen is an interactive CLI that scaffolds new projects in seconds. Pick your 
 
 We welcome all contributions — new recipes, bug fixes, and feature ideas.  
 Read our [Contributing Guide](https://github.com/Projgen/.github/blob/main/CONTRIBUTING.md) to get started.
-
----
-
-<sub>MIT License · Made with ☕ by <a href="https://github.com/An0n-00">Loris</a> and contributors</sub>
