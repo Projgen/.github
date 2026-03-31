@@ -1,7 +1,9 @@
 <div align="center">
-  <h1>Projgen</h1>
-  <p><strong>A TypeScript CLI tool to scaffold any programming project — fast, flexible, and recipe-driven.</strong></p>
 
+  <img width="350px" src="https://github.com/user-attachments/assets/20e38609-9957-4c3e-a61a-73f8a3a536f4?s=200" alt="logo"></img>
+    <p><strong>A TypeScript CLI tool to scaffold any programming project — fast, flexible, and recipe-driven.</strong></p>
+
+  
   <p>
     <a href="https://www.npmjs.com/package/projgen"><img src="https://img.shields.io/npm/v/projgen?color=01696f&label=npm" alt="npm version" /></a>
     <a href="https://github.com/Projgen/core/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Projgen/core?color=01696f" alt="MIT License" /></a>
