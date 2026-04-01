@@ -27,48 +27,33 @@ Please be respectful and constructive. We follow the [Contributor Covenant](http
 
 There are many ways to help:
 
-- 🐛 Report bugs via [Issues](https://github.com/Projgen/core/issues)
+- 🐛 Report bugs via [Issues](https://github.com/Projgen/core_v2/issues)
 - 💡 Suggest features or new stack recipes
 - 🔧 Fix open issues (check `good first issue` label)
 - 📚 Improve documentation
-- 🧩 Submit new recipes
 
 ---
 
 ## Development Setup
 
-**Prerequisites:** Node.js v18+, pnpm v10+
+**Prerequisites:** Node.js v18+, npm v11+
 
 ```bash
 # 1. Fork and clone the core repo
-git clone https://github.com/YOUR_USERNAME/core.git
-cd core
+git clone https://github.com/YOUR_USERNAME/core_v2.git
+cd core_v2
 
 # 2. Install dependencies
-pnpm install
+npm install
 
 # 3. Watch mode (rebuilds on save)
-pnpm run dev
+npm run dev
 
 # 4. Link globally so you can run `projgen` locally
-pnpm link --global
+npm link --global
 ```
 
 Now run `projgen` in any directory to test your changes.
-
----
-
-## Project Structure
-
-```
-src/
-├── builders/     # Project scaffolding logic (copies templates, installs deps)
-├── prompts/      # Interactive CLI prompt definitions (@inquirer/prompts)
-├── templates/    # File templates copied into new projects
-├── types/        # Shared TypeScript types
-└── utils/        # Helper utilities
-index.ts          # CLI entry point
-```
 
 ---
 
@@ -79,8 +64,8 @@ index.ts          # CLI entry point
    git checkout -b feat/my-feature
    ```
 2. **Make your changes** with clear, focused commits
-3. **Follow the code style** — run `pnpm run lint` before committing
-4. **Build and test** — run `pnpm run build` and verify the CLI works
+3. **Follow the code style** — run `npm run lint` before committing
+4. **Build and test** — run `npm run build` and verify the CLI works by running `npm run start`
 5. **Open a PR** against `main` with a clear title and description
 6. Fill in the PR template completely
 
@@ -89,7 +74,7 @@ index.ts          # CLI entry point
 We use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
-feat: add Vue.js recipe
+feat: add Vue.js template
 fix: resolve path issue on Windows
 docs: update README install instructions
 chore: bump dependencies
@@ -97,21 +82,11 @@ chore: bump dependencies
 
 ---
 
-## Adding a Recipe
-
-A recipe is a preset stack definition. To propose a new recipe:
-
-1. Open a `recipe_request` issue first to discuss
-2. Once approved, either implement it in `core` or wait for the `recipes` repo
-3. Recipes should be composable — build on existing options rather than duplicating logic
-
----
-
 ## Reporting Bugs
 
 Use the [Bug Report template](https://github.com/Projgen/core/issues/new?template=bug_report.yml). Include:
 - Node.js version (`node -v`)
-- pnpm/npm/yarn version
+- npm version
 - Operating system
 - Full error output
 
