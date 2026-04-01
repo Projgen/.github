@@ -36,9 +36,9 @@ List the key changes. Example:
 
 <!-- How did you verify this works? -->
 
-- [ ] Ran `pnpm run build` — no errors
-- [ ] Ran `pnpm run lint` — no lint errors
-- [ ] Tested the CLI manually with `pnpm link` + `projgen`
+- [ ] Ran `npm run build` — no errors
+- [ ] Ran `npm run lint` — no lint errors
+- [ ] Tested the CLI manually with `npm link` + `projgen`
 - [ ] Tested on: <!-- e.g., macOS 14, Windows 11, Ubuntu 24.04 -->
 
 ## Screenshots / Output
@@ -51,7 +51,7 @@ $ projgen
 
 ## Checklist
 
-- [ ] My code follows the project's style (`pnpm run lint` passes)
+- [ ] My code follows the project's style (`npm run lint` passes)
 - [ ] I have added / updated relevant documentation or comments
 - [ ] My changes do not introduce new warnings
 - [ ] I have read [CONTRIBUTING.md](https://github.com/Projgen/.github/blob/main/CONTRIBUTING.md)
