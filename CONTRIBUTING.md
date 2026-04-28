@@ -95,3 +95,9 @@ Use the [Bug Report template](https://github.com/Projgen/core_v2/issues/new?temp
 ## Requesting Features
 
 Use the [Feature Request template](https://github.com/Projgen/core_v2/issues/new?template=feature_request.yml). Explain the use case before the implementation — a well-described problem is worth more than a half-formed solution.
+
+---
+
+## Requesting Templates
+
+Use the [Template Request template](https://github.com/Projgen/core_v2/issues/new?template=template_request.yml). Explain what the template is for and what it should include.
