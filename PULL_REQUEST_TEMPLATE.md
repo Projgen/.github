@@ -8,7 +8,7 @@
 
 - [ ] 🐛 Bug fix (non-breaking change that fixes an issue)
 - [ ] ✨ New feature (non-breaking change that adds functionality)
-- [ ] 🧩 New recipe / stack support
+- [ ] 🧩 New template / stack support
 - [ ] 💥 Breaking change (fix or feature that would cause existing functionality to change)
 - [ ] 📚 Documentation update
 - [ ] 🔧 Chore / dependency update
@@ -40,14 +40,6 @@ List the key changes. Example:
 - [ ] Ran `npm run lint` — no lint errors
 - [ ] Tested the CLI manually with `npm link` + `projgen`
 - [ ] Tested on: <!-- e.g., macOS 14, Windows 11, Ubuntu 24.04 -->
-
-## Screenshots / Output
-
-<!-- If applicable, paste terminal output or a screenshot showing the result -->
-
-```
-$ projgen
-```
 
 ## Checklist
 

@@ -1,18 +1,12 @@
-name: 🧩 Recipe Request
-description: Request a new stack preset / recipe for Projgen
-labels: ["recipe", "enhancement"]
+name: 🧩 Template Request
+description: Request a new stack preset / template for Projgen
+labels: ["template", "enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        A **recipe** is a named combination of frameworks, tools, and integrations that can be selected in one step.  
-        Example: `"next-fullstack"` = Next.js + Tailwind + shadcn + Supabase + ESLint + Prettier.
-
   - type: input
-    id: recipe_name
+    id: template_name
     attributes:
-      label: Recipe Name
-      description: A short, descriptive slug for the recipe.
+      label: Template Name
+      description: A short, descriptive slug for the template.
       placeholder: "vue-pinia-vitest"
     validations:
       required: true
@@ -21,7 +15,7 @@ body:
     id: stack
     attributes:
       label: Stack Definition
-      description: List all the tools/frameworks/libraries this recipe should include.
+      description: List all the tools/frameworks/libraries and other steps this template should include.
       placeholder: |
         - Framework: Vue 3 (Vite)
         - State: Pinia
@@ -36,7 +30,7 @@ body:
     id: use_case
     attributes:
       label: Use Case
-      description: Who is this recipe for? What kind of project does it scaffold?
+      description: Who is this template for? What kind of project does it scaffold?
       placeholder: "For Vue 3 SPAs that need a solid testing and state management setup from day one."
     validations:
       required: true
@@ -45,7 +39,7 @@ body:
     id: notes
     attributes:
       label: Additional Notes
-      description: Any special configuration, env variables, or post-scaffold steps needed?
+      description: Any variables or special steps needed?
     validations:
       required: false
 
@@ -54,7 +48,7 @@ body:
     attributes:
       label: Contribution
       options:
-        - label: I'm willing to help implement this recipe
+        - label: I'm willing to help implement this template
           required: false
 
   - type: checkboxes
@@ -62,5 +56,5 @@ body:
     attributes:
       label: Before submitting
       options:
-        - label: I have searched for existing issues and this recipe doesn't exist yet
+        - label: I have searched for existing issues and this template doesn't exist yet
           required: true

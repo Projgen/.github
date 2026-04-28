@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Have a great idea? Tell us about it! Feature requests are reviewed regularly.
-        
+
         **Tip:** A well-described problem is more useful than a half-formed solution.
 
   - type: textarea
@@ -42,10 +42,7 @@ body:
       description: Which part of Projgen does this relate to?
       options:
         - CLI prompts / UX
-        - Framework support (React, Next.js, Vite, etc.)
-        - Tooling (ESLint, Prettier, TypeScript)
-        - Database integration (Supabase, MongoDB, etc.)
-        - Recipe system
+        - New step type suggestion
         - Documentation
         - Other
     validations:
