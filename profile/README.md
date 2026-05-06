@@ -5,7 +5,7 @@
 <p><strong>A TypeScript CLI tool to scaffold any programming project — fast, flexible, and template-driven.</strong></p>
 
   <p>
-    <a href="https://www.npmjs.com/package/@projgen/cli"><img src="https://img.shields.io/npm/v/@projgen/core_v2?color=01696f&label=npm" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/@projgen/cli"><img src="https://img.shields.io/npm/v/@projgen/cli?color=01696f&label=npm" alt="npm version" /></a>
     <a href="https://github.com/Projgen/core_v2/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Projgen/core_v2?color=01696f" alt="MIT License" /></a>
     <a href="https://github.com/Projgen/core_v2/issues"><img src="https://img.shields.io/github/issues/Projgen/core_v2?color=01696f" alt="Open issues" /></a>
   </p>
