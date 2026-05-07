@@ -6,8 +6,8 @@
 
   <p>
     <a href="https://www.npmjs.com/package/@projgen/cli"><img src="https://img.shields.io/npm/v/@projgen/cli?color=01696f&label=npm" alt="npm version" /></a>
-    <a href="https://github.com/Projgen/core_v2/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Projgen/core_v2?color=01696f" alt="MIT License" /></a>
-    <a href="https://github.com/Projgen/core_v2/issues"><img src="https://img.shields.io/github/issues/Projgen/core_v2?color=01696f" alt="Open issues" /></a>
+    <a href="https://github.com/Projgen/core/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Projgen/core?color=01696f" alt="MIT License" /></a>
+    <a href="https://github.com/Projgen/core/issues"><img src="https://img.shields.io/github/issues/Projgen/core?color=01696f" alt="Open issues" /></a>
   </p>
 </div>
 
@@ -30,7 +30,7 @@ Projgen is an interactive CLI that scaffolds new projects in seconds. Pick your 
 
 | Repo                                                | Description                                                 |
 | --------------------------------------------------- | ----------------------------------------------------------- |
-| [`core_v2`](https://github.com/Projgen/core_v2)     | The main CLI source code                                    |
+| [`core`](https://github.com/Projgen/core)     | The main CLI source code                                    |
 | [`templates`](https://github.com/Projgen/templates) | Community and official template definitions _(coming soon)_ |
 | [`docs`](https://github.com/Projgen/docs)           | Documentation site _(coming soon)_                          |
 
