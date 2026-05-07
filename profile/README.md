@@ -6,7 +6,7 @@
 
   <p>
     <a href="https://www.npmjs.com/package/@projgen/cli"><img src="https://img.shields.io/npm/v/@projgen/cli?color=01696f&label=npm" alt="npm version" /></a>
-    <a href="https://github.com/Projgen/core/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Projgen/core?color=01696f" alt="MIT License" /></a>
+    <a href="https://github.com/Projgen/core/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Projgen/core" alt="MIT License" /></a>
     <a href="https://github.com/Projgen/core/issues"><img src="https://img.shields.io/github/issues/Projgen/core?color=01696f" alt="Open issues" /></a>
   </p>
 </div>
